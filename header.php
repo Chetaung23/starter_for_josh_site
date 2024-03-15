@@ -75,4 +75,3 @@
     </div> <!-- container -->
     <?php wp_head(); ?>  <!-- very important that this is added -->
     </header>
-
