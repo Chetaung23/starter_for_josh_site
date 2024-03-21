@@ -37,7 +37,7 @@
 
 </head>
 <body>
-    <header class="container-fluid smallpage-bg">
+    <header class="container-fluid smallpage-bg"> <!-- div for the main image the stretches to the edge of the page- -->
         <div class="container">
 
    
@@ -69,9 +69,11 @@
           </ul>
         </div>
       </nav>
+
 <div class="smallpage-tag">
       <h1 class="smallpage-title" > Projects </h1>
-    </div> <!-- tag -->
-    </div> <!-- container -->
+     </div> <!-- container -->
+     
     <?php wp_head(); ?>  <!-- very important that this is added -->
+
     </header>
