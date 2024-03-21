@@ -72,8 +72,9 @@
 
 <div class="smallpage-tag">
       <h1 class="smallpage-title" > Projects </h1>
-     </div> <!-- container -->
-     
+    </div> <!-- tag --> 
+    </div> <!-- container -->
+
     <?php wp_head(); ?>  <!-- very important that this is added -->
 
     </header>
