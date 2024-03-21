@@ -132,7 +132,7 @@ font-weight:bold;
 padding:5%;
 }
 
-.smallpage-bg {
+.smallpage-bg1 {
     width: 100%;
 background: url("images/page_header_bg.jpg") no-repeat center center;
 background-size: cover;/*make the background image cover the whole div proportionally*/
