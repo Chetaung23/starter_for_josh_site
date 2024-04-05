@@ -27,7 +27,7 @@ $image = get_field('articleimage');
 <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
 <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
 <p class="date" ><?php the_field('articledate'); ?></p>
-<p class="article-p"><?php the_field('articleexcerpt'); ?> </p>
+<p class="article-p"><?php the_field('articleexcert'); ?> </p>
 <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>  
 </div>
 
@@ -38,7 +38,7 @@ $image = get_field('articleimage_middle');
 <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
 <h4 class="article-title"><?php the_field('articletitle_middle'); ?></h4>
 <p class="date" ><?php the_field('articledate_middle'); ?></p>
-<p class="article-p"><?php the_field('articleexcerpt_middle'); ?> </p>
+<p class="article-p"><?php the_field('articleexcert_middle'); ?> </p>
 <a href="<?php the_field('readmore_middle'); ?>" class="readmore">CONTINUE READING</a>  
 </div>
 
@@ -49,7 +49,7 @@ $image = get_field('articleimage_right');
 <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
 <h4 class="article-title"><?php the_field('articletitle_right'); ?></h4>
 <p class="date" ><?php the_field('articledate_right'); ?></p>
-<p class="article-p"><?php the_field('articleexcerpt_right'); ?> </p>
+<p class="article-p"><?php the_field('articleexcert_right'); ?> </p>
 <a href="<?php the_field('readmore_right'); ?>" class="readmore">CONTINUE READING</a>  
 </div>
 
