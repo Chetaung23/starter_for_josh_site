@@ -37,10 +37,7 @@
 
 </head>
 <body>
-    <header class="container-fluid smallpage-bg"> <!-- div for the main image the stretches to the edge of the page- -->
-        <div class="container">
-
-   
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
 
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
